@@ -7,11 +7,13 @@ body{
 .offer-container{
     width: 60%;
     margin: 1.8rem auto;
-    display: flex;
-    align-items: flex-start;
-    padding: 1rem;
     border-radius: 12px;
     box-shadow: 0px 0px 7px -3px rgba(0,0,0,0.84);
+    padding: 1rem;
+}
+.offer__container-upper{
+    display: flex;
+    align-items: flex-start;
 }
 .offer-container img{
     width:45px;
@@ -30,6 +32,10 @@ body{
 }
 .offer-container .job__info p{
     font-size: .8rem;
+}
+
+.job__company{
+    color: rgb(249, 142, 87);
 }
 
 .types__container{
@@ -60,7 +66,9 @@ body{
     color: rgba(122, 119, 119, 0.884);
 }
 
-
+.job__role{
+    cursor: pointer;
+}
 /* Navbar styles */
 
 .navbar__container{
